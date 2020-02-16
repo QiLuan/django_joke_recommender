@@ -3,7 +3,7 @@
 
 def loadCosineMatrix():
     cosine = []
-    with open('/jester/cosine.txt', 'r') as f:
+    with open('cosine.txt', 'r') as f:
         for line in f:
             if line == '':
                 continue
@@ -13,7 +13,7 @@ def loadCosineMatrix():
 
 def loadAverage():
     average = []
-    with open('/jester/average.txt', 'r') as f:
+    with open('average.txt', 'r') as f:
         for line in f:
             if line == '':
                 continue

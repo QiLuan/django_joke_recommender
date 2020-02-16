@@ -44,6 +44,7 @@ def index(request):
 		'ratedAll': len(d) == 100,
 		'hasRecommendation': len(recommendation) != 0,
 		'recommendation': recommendation,
+		'numRec': len(recommendation),
 	}
 	return HttpResponse(template.render(context, request))
 
