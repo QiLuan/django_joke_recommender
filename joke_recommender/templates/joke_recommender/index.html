@@ -1,0 +1,32 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+{% if user.is_authenticated %}
+	{% if ratedAll %}
+	<p><strong>You have read all jokes we have! Thank you very much!</strong></p>
+	{% elif noRating %}
+	<p><strong>You have not rated any jokes yet, here are some popular jokes:</strong></p>
+	<div>
+		{% for rec in recommendation %}
+		<a href="/jr/{{ rec.id }}"> Joke {{ rec.id }}</a>
+		{% endfor %}
+	</div>
+	{% else %}
+	<p><strong>Based on your rating history, we recommend you the following jokes:</strong></p>
+	<div>
+		{% for rec in recommendation %}
+		<a href="/jr/{{ rec.id }}"> Joke {{ rec.id }}</a>
+		{% endfor %}
+	</div>
+	{% endif %}
+{% else %}
+	<p>Please login to rate jokes and get recommendations!</p>
+{% endif %}
+<br>
+<h3>All jokes:</h3>
+<ul>
+	{% for joke in jokes %}
+		<li><a href="/jr/{{ joke.id }}/"> Joke {{ joke.id }}</a></li>
+	{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+<h1>Rated Jokes</h1>
+{% if ratings %}
+	<ul>
+		{% for rating in ratings %}
+			<li><a href="/jr/{{ rating.joke.id }}/"> Joke {{ rating.joke.id }}</a>: {{ rating.rating }}
+			</li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>You have not rated any jokes yet.</p>
+{% endif %}
+{% endblock %}

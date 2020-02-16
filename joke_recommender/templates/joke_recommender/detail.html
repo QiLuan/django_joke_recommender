@@ -1,0 +1,36 @@
+{% extends "base_generic.html" %}
+
+
+{% block content %}
+<h3>Joke {{ joke.id }}</h3>
+<br>
+{{ joke.joke_text|safe }}
+<br>
+<br>
+<br>
+{% if user.is_authenticated %}
+  {% if isRated %}
+  <p><strong>You previously rated this joke {{ rate }}</strong>.</p>
+  {% else %}
+  <p><strong>You have not rated this joke previously.</strong></p>
+  {% endif %}
+<br>
+<form action = "{% url 'rate' joke.id %}" method = "post">
+{% csrf_token %}
+<label for="rating">Rate this joke:</label>
+<select id="rating" name="rating">
+  <option value="5"> 5 (Enjoyed Very Much)</option>
+  {% for i in nums %}
+  <option value="{{i}}"> {{i}} </option>
+  {% endfor %}
+  <option value="0" selected="selected"> 0 </option>
+  {% for j in numsRev %}
+  <option value="{{j}}"> {{j}} </option>
+  {% endfor %}
+  <option value="-5"> -5 (Not My Cup of Tea) </option>
+</select>
+	<input type="submit" value = "rate">
+</form>
+{% endif %}
+
+{% endblock %}
