@@ -1,0 +1,1 @@
+web: gunicorn jokerecommender.wsgi --log-file -

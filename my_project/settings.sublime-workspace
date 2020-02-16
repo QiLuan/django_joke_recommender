@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"is_authenticated"
+			],
+			[
+				"recommen",
+				"recommendation"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"su",
+				"sum_mult_of_three_or_five"
+			],
+			[
+				"sum",
+				"sum_mult_of_k_less_than_n"
+			],
+			[
+				"question",
+				"question_id"
+			],
+			[
+				"counter",
+				"counterPlusOne"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"search",
+				"searchString2"
+			],
+			[
+				"req",
+				"req_url"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"num",
+				"numProd"
+			],
+			[
+				"mult",
+				"multiplierType"
+			],
+			[
+				"mul",
+				"multiplierType"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/recommender.py",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/base_generic.html",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/models.py",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/urls.py",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/templates/joke_recommender/rating.html",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/templates/joke_recommender/detail.html",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/views.py",
+		"/Users/qiluan/Desktop/webdev/my_project/my_project/settings.py",
+		"/Users/qiluan/Desktop/webdev/django_joke_recommender/django_joke_recommender/.gitignore",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/templates/joke_recommender/index.html",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/static/css/styles.css",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/static/css/style.css",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/admin.py",
+		"/Users/qiluan/Desktop/webdev/my_project/my_project/urls.py",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/login.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/signup.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/user_sidebar.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/password_reset_complete.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/password_reset_confirm.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/password_reset_email.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/password_reset_done.html",
+		"/Users/qiluan/Desktop/webdev/my_project/templates/registration/password_reset_form.html",
+		"/Users/qiluan/Desktop/webdev/my_project/my_project/logout.html",
+		"/Users/qiluan/Desktop/sum_mult_three_or_five.py",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/getJokes.py",
+		"/Users/qiluan/Desktop/webdev/my_project/joke_recommender/Jester/getJokes.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/admin.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/templates/polls/index.html",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/templates/polls/detail.html",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/templates/polls/results.html",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/views.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/static/polls/style.css",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/urls.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/mysite/settings.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/models.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/mysite/urls.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/test.py",
+		"/Users/qiluan/Desktop/webdev/django/mysite/polls/detail.html",
+		"/Users/qiluan/Desktop/webdev/pindleCounter.html",
+		"/Users/qiluan/Desktop/webdev/funcitonTest.html",
+		"/Users/qiluan/Desktop/webdev/helloHTML.html",
+		"/Applications/Games.localized/d2lod.app/Contents/Resources/drive_c/Program Files (x86)/Diablo II/Mod PlugY/PlugY.ini",
+		"/Users/qiluan/Documents/programing/algorithm_and_data_structures/kmpAlgorithm.py",
+		"/Users/qiluan/Desktop/temp/algorithm2e.sty",
+		"/Users/qiluan/Desktop/temp/algorithmic.sty",
+		"/Users/qiluan/Desktop/macis/camera_ready/sbs/llncs.cls",
+		"/Users/qiluan/Desktop/chou/101.xls",
+		"/Users/qiluan/Desktop/chou/101utf.xls",
+		"/Users/qiluan/Desktop/chou/小学楼A段一层教学仪器室106.xls",
+		"/Users/qiluan/Desktop/chou/小学楼A段一层科学器材室111.xls",
+		"/Users/qiluan/Desktop/chou/小学楼A段一层实验资料室101.xls",
+		"/Users/qiluan/Desktop/data_challenge/data_challenge.py",
+		"/Users/qiluan/ds/templates/subscription2.csv",
+		"/Users/qiluan/ds/templates/subsription2.csv",
+		"/Users/qiluan/ds/templates/subscritption.csv",
+		"/Users/qiluan/Desktop/webdev/myCSS.css",
+		"/Users/qiluan/Documents/nlp/QI_MRC/attention.py",
+		"/Users/qiluan/Documents/nlp/QI_MRC/model.py",
+		"/Users/qiluan/Documents/nlp/QI_MRC/preprocess.py",
+		"/Users/qiluan/Documents/nlp/QI_MRC/sequence_reader.py",
+		"/Users/qiluan/Documents/nlp/QI_MRC/util.py",
+		"/Users/qiluan/Documents/nlp/model_graph.py",
+		"/Users/qiluan/Desktop/webdev/Qi Author Response Input",
+		"/Users/qiluan/Desktop/bs_play_ground/fsf_index.py",
+		"/Users/qiluan/Desktop/bs_play_ground/test.txt",
+		"/Users/qiluan/Desktop/bs_play_ground/index.html",
+		"/Users/qiluan/Desktop/temp/llncs.cls",
+		"/Users/qiluan/Documents/programing/Untitled.ipynb",
+		"/Users/qiluan/Desktop/pan_lsr/multiplierGeneration.py",
+		"/Users/qiluan/Desktop/pan_lsr/aphGeneration.py",
+		"/Users/qiluan/Documents/programing/HadmardTransform/hadamardTransform.py",
+		"/Users/qiluan/Documents/programing/HadmardTransform/had_tran.c",
+		"/Users/qiluan/Documents/programing/mallocTest.c",
+		"/Users/qiluan/Desktop/pan_lsr/testDataGeneration.py",
+		"/Users/qiluan/Desktop/pan_lsr/paper/oldTestResult.txt",
+		"/Users/qiluan/Documents/programing/callFromPy.c",
+		"/Users/qiluan/Desktop/pan_iter/qrGaussian.py",
+		"/Users/qiluan/Documents/programing/callFromPyTest.py",
+		"/Users/qiluan/Desktop/pan_iter/aphGeneration.py",
+		"/Users/qiluan/Desktop/pan_iter/iterRefAltPre.py",
+		"/Users/qiluan/Documents/c/lapack_test.c"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

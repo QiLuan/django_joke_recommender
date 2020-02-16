@@ -18,6 +18,7 @@ from django.urls import path, include
 from joke_recommender import views
 
 urlpatterns = [
+    path('', include('joke_recommender.urls')),
 	path('jr/', include('joke_recommender.urls')),
     path('admin/', admin.site.urls),
 	path('accounts/signup/', views.signup, name = 'signup'),
